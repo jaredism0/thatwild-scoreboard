@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basketball Scoreboard App - ThatWild</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="nav-container">
-                <h1>ThatWild</h1>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="basketball-scoreboard.html">Basketball Scoreboard</a></li>
-                    <li><a href="support.html">Support</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+<?php
+$page_title = 'Basketball Scoreboard App';
+include 'includes/header.php';
+?>
 
     <main>
         <section class="app-hero">
@@ -77,15 +60,9 @@
             <div class="container">
                 <h3>Get Ready to Score</h3>
                 <p>The Basketball Scoreboard app will be available soon on the iOS App Store.</p>
-                <a href="support.html" class="cta-button">Support & FAQ</a>
+                <a href="support.php" class="cta-button">Support & FAQ</a>
             </div>
         </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 ThatWild. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
