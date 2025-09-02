@@ -1,12 +1,19 @@
 <?php
+// Error reporting for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Set page title
 $page_title = 'Home';
-include 'includes/header.php';
+
+// Include header
+require_once 'includes/header.php';
 ?>
 
     <main>
         <section class="hero">
             <div class="container">
-                <h2>Basketball Scoreboard App</h2>
+                <h2>Scoreboard Ref App</h2>
                 <p>A simple, intuitive basketball scoreboard app for coaches, referees, and fans.</p>
                 <a href="basketball-scoreboard.php" class="cta-button">Learn More</a>
             </div>
@@ -37,4 +44,7 @@ include 'includes/header.php';
         </section>
     </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php 
+// Include footer
+require_once 'includes/footer.php'; 
+?>

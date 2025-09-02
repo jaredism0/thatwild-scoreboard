@@ -1,12 +1,19 @@
 <?php
+// Error reporting for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Set page title
 $page_title = 'Support';
-include 'includes/header.php';
+
+// Include header
+require_once 'includes/header.php';
 ?>
 
     <main>
         <section class="support-content">
             <div class="container">
-                <h2>Basketball Scoreboard Support</h2>
+                <h2>Scoreboard Ref Support</h2>
                 
                 <div class="contact-info">
                     <h3>Contact Us</h3>
@@ -55,4 +62,7 @@ include 'includes/header.php';
         </section>
     </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php 
+// Include footer
+require_once 'includes/footer.php'; 
+?>

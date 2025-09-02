@@ -1,12 +1,19 @@
 <?php
-$page_title = 'Basketball Scoreboard App';
-include 'includes/header.php';
+// Error reporting for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Set page title
+$page_title = 'Scoreboard Ref App';
+
+// Include header
+require_once 'includes/header.php';
 ?>
 
     <main>
         <section class="app-hero">
             <div class="container">
-                <h2>Basketball Scoreboard</h2>
+                <h2>Scoreboard Ref</h2>
                 <p class="subtitle">A simple, intuitive basketball scoreboard app for coaches, referees, and fans.</p>
                 <div class="app-badge">
                     <p>Coming Soon on the App Store</p>
@@ -59,10 +66,13 @@ include 'includes/header.php';
         <section class="cta">
             <div class="container">
                 <h3>Get Ready to Score</h3>
-                <p>The Basketball Scoreboard app will be available soon on the iOS App Store.</p>
+                <p>The Scoreboard Ref app will be available soon on the iOS App Store.</p>
                 <a href="support.php" class="cta-button">Support & FAQ</a>
             </div>
         </section>
     </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php 
+// Include footer
+require_once 'includes/footer.php'; 
+?>
